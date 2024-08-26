@@ -1,0 +1,71 @@
+/* RegisterForm.css */
+/* RegisterForm.css */
+
+body {
+    background-color: #e0f7fa; /* Light cyan background */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Add a basic font-family for consistency */
+}
+
+.cardreg{
+    background-color: #ffffff; /* White card background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Maximum width of the card */
+    padding: 20px; 
+    align-items: center;/* Padding inside the card */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #009688; /* Teal color */
+    border-color: #00796b; /* Darker teal */
+}
+
+.btn-primary:hover {
+    background-color: #00796b; /* Darker teal on hover */
+    border-color: #004d40; /* Even darker teal */
+}
+
+.text-danger {
+    font-size: 0.875rem;
+    color: #d32f2f; /* Red color for error messages */
+}
+
+a {
+    color: #009688;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width to fit the card */
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border for inputs */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #009688;
+    outline: none;
+}
+
